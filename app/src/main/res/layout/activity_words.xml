@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ff7722"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:layout_height="match_parent"
+    tools:context=".Words">
+
+    <LinearLayout
+        android:background="#fdf3a7"
+        android:layout_margin="5dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <ImageView
+            android:id="@+id/image_id"
+            android:background="#ffc2"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#fdf3a7"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/text_id"
+            android:text="APPLE"
+            android:textColor="#8b1014"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/symbol_id"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <ImageButton
+
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_play_circle_filled_black_24dp"
+            android:id="@+id/play_id"
+            android:text="PLAY"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0c269b"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="#5da66c"
+    android:layout_height="match_parent"
+    tools:context="com.kidslearning.tansh.kids_learning.Youtube_link">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/LarvaID"
+            android:background="#bbeabd"
+            android:src="@drawable/cartoon1"
+            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="200dp" />
+        <ImageView
+            android:id="@+id/OggyID"
+            android:background="#bbeabd"
+            android:src="@drawable/cartoon2"
+            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="200dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/RhymeID"
+            android:background="#bbeabd"
+            android:src="@drawable/rhyme"
+            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="200dp" />
+        <ImageView
+            android:id="@+id/StoryID"
+            android:background="#bbeabd"
+            android:src="@drawable/story"
+            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="200dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

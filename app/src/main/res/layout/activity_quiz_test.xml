@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.kidslearning.tansh.kids_learning.Quiz_test">
+
+
+    <ImageView
+        android:id="@+id/ImageTestID"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="200dp" />
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="200dp">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:id="@+id/radio1ID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:id="@+id/radio2ID"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:id="@+id/radio3ID"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:id="@+id/radio4ID"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+                </RadioButton>
+
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/SubmitID"
+        android:text="SUBMIT"
+        android:layout_margin="20dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>

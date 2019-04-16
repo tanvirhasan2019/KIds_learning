@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#f9cb57"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/letter_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/alphabet"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        style="@style/textviewcircular"
+                        android:text="LETTERS" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/words_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/words"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+
+                        style="@style/textviewcircular"
+                        android:text="Words" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/number_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/number"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        style="@style/textviewcircular"
+                        android:text="NUMBERS" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/color_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/color"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+
+                        style="@style/textviewcircular"
+                        android:text="COLORS" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/shape_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/shape"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        style="@style/textviewcircular"
+                        android:text="SHAPES" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/day_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/days"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+
+                        style="@style/textviewcircular"
+                        android:text="DAYS" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/month_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/month"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        style="@style/textviewcircular"
+                        android:text="months" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/fruit_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/fruits"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+
+                        style="@style/textviewcircular"
+                        android:text="FRUITS" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/animal_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/animal"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        style="@style/textviewcircular"
+                        android:text="ANIMALS" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/vehicle_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/vehicle"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+
+                        style="@style/textviewcircular"
+                        android:text="VEHICLES" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/occupation_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/occupation"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="OCCUPATIONS"
+                        android:textColor="#bf6922"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/body_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/body"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+
+                        style="@style/textviewcircular"
+                        android:text="body parts" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/Games_id"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/game2"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Online Games"
+                        android:textColor="#bf6922"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/QuizId"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/quiz_main"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+
+                        style="@style/textviewcircular"
+                        android:text="Small Quiz" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/YoutubeID"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/video_link"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Youtube"
+                        android:textColor="#bf6922"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/CreditID"
+                        style="@style/Circularimageview"
+                        android:src="@drawable/ic_credit_icon_black_24dp"
+                        app:civ_border_color="#267137"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+
+                        style="@style/textviewcircular"
+                        android:text="CREDITS" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
